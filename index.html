@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人網站</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body bgcolor="B0E3D9">
+    <nav>
+        ｜
+        <a href="#about">ABOUT ME</a>
+        ｜
+        <a href="#skills">MY SKILL</a>
+        ｜
+        <a href="#experience">EXPERIENCE</a>
+        ｜
+    </nav>
+
+    <header>
+        <img class="imagehead" src="image/header_image/miyahihi.jpg" width="250px" height="250px">
+        <div class="jieshou" >
+            <p class="summary">黃詩雅｜Huang-Shi-Ya<br>
+                中原大學｜資管二甲｜11244114<br>
+                ｜變化是生活的法則，那些只看過去和當下的人肯定會錯過未來｜<br>
+            </p>
+            <div class="findme">
+                <a href="https://www.instagram.com/shiiyyh/"><img src="image/header_image/Instagram_logo.png"></a>
+                <a href="https://www.facebook.com/profile.php?id=100002106144030"><img src="image/header_image/Facebook_logo.png"></a>
+                <a href="https://line.me/ti/p/IS0uNq2ZnV"><img src="image/header_image/LINE_logo.png"></a>
+                <a href="mailto:angel9312030@gmail.com"><img src="image/header_image/Gmail_logo.png"></a>
+            </div>
+        </div>  
+    </header>
+
+    <main>
+        <article class="about" id="about">
+            <div class="bienkuang">ABOUT ME</div>
+            <div class="ab-content">
+                <img class="ab-image" src="image/ab_image/mbti.jpg" alt="">
+                <p class="ab-con">
+                    個人資料<br>
+                    -------------------- <br>
+                    姓名：黃詩雅<br>
+                    生/心理性別：女<br>
+                    mbti：INFP-T<br>
+                    行動電話：0917083780<br>
+                    生日：2004/12/3<br>
+                </p>
+
+                <img class="ab-image" src="image/ab_image/draw.jpg" alt="">
+                <p class="ab-con">
+                    興趣喜好<br>
+                    -------------------- <br>
+                    研究人格心理學：榮格八維、十六型人格等<br>
+                    運動：打排球、跑步<br>
+                    創作：寫作、畫畫<br>
+                    其他：去貓/狗咖與動物們互動<br>
+                    ✧正在學習使用平板畫畫，緩慢進步中✧<br>
+                </p>
+            </div>
+        </article>
+
+        <article class="skills" id="skills">
+            <div class="bienkuang">MY SKILL</div>
+            <!--這裡滑鼠滑到的地方會出現熟練度與趴數-->
+            <div class="donut">
+                <section class="d-progress-circle" data-progress="85">
+                    <svg viewBox="0 0 160 160">
+                        <circle class="circle-bg" cx="80" cy="80" r="60"></circle>
+                        <circle class="circle-progress" cx="80" cy="80" r="60"></circle>
+                        <circle class="circle-inner-border" cx="80" cy="80" r="40"></circle>
+                    </svg>
+                    <span class="donut_percentage">85%</span>
+                    <span class="donut_label">Python</span>
+                </section>
+
+                <section class="d-progress-circle" data-progress="70">
+                    <svg viewBox="0 0 160 160">
+                        <circle class="circle-bg" cx="80" cy="80" r="60"></circle>
+                        <circle class="circle-progress" cx="80" cy="80" r="60"></circle>
+                        <circle class="circle-inner-border" cx="80" cy="80" r="40"></circle>
+                    </svg>
+                    <span class="donut_percentage">70%</span>
+                    <span class="donut_label">Java</span>
+                </section>
+        
+                <section class="d-progress-circle" data-progress="80">
+                    <svg viewBox="0 0 160 160">
+                        <circle class="circle-bg" cx="80" cy="80" r="60"></circle>
+                        <circle class="circle-progress" cx="80" cy="80" r="60"></circle>
+                        <circle class="circle-inner-border" cx="80" cy="80" r="40"></circle>
+                    </svg>
+                    <span class="donut_percentage">80%</span>
+                    <span class="donut_label">Html</span>
+                </section>
+        
+                <section class="d-progress-circle" data-progress="75">
+                    <svg viewBox="0 0 160 160">
+                        <circle class="circle-bg" cx="80" cy="80" r="60"></circle>
+                        <circle class="circle-progress" cx="80" cy="80" r="60"></circle>
+                        <circle class="circle-inner-border" cx="80" cy="80" r="40"></circle>
+                    </svg>
+                    <span class="donut_percentage">75%</span>
+                    <span class="donut_label">CSS</span>
+                </section>
+            </div>
+        </article>
+
+        <article class="experience" id="experience">
+            <div class="bienkuang">EXPERIENCE</div>
+            <section class="exp-content">
+                 <!--這裡按左右的按鈕可以滑到上下一頁-->
+                <div class="exp-con-gallery">
+                    <input type="radio" id="slide1" name="slider" checked>
+                    <input type="radio" id="slide2" name="slider">
+                    <input type="radio" id="slide3" name="slider">
+                    <input type="radio" id="slide4" name="slider">
+                
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="image/exp_image/GGgg.png" class="img1" alt="Image 1" style="max-width: 400px; max-height: 300px; overflow: hidden;">
+                            <img src="image/exp_image/guanlixue.jpg" class="img2" alt="Image 2" style="max-width: 250px; max-height: 300px; overflow: hidden;">
+                            <img src="image/exp_image/hotpot.jpg" class="img3" alt="Image 3" style="max-width: 400px; max-height: 300px; overflow: hidden;">
+                            <img src="image/exp_image/pet.jpg" class="img4" alt="Image 4" style="max-width: 250px; max-height: 300px; overflow: hidden;">
+                        </div>
+                    </div>
+
+                    <div class="text-container">
+                        <div class="description">
+                            <div class="text text1">
+                                <h3>2021/6/16 萬有引力專題報告</h3>
+                                <p class="t-c-text">
+                                    對於物理一直很頭疼的我，有幸和組員一起進行了有關萬有引力的專題實驗。<br>
+                                    實驗過程非常考驗我們的耐心，是要讓桿子在密閉空間中觀察他擺動的次數、一段時間後移動的距離等，而用釣魚線、棉線、吉他線等各種不同質量的線都會大大的影響到數據成果，雖然實驗內容繁瑣，但也讓我們感受到重力的有趣之處。<br>
+                                    非常榮幸能得到專題報告的嘉獎，我認為我們的努力是有被大家看到，且一點也沒有白費的。<br>
+                                </p>
+                            </div>
+                            <div class="text text2">
+                                <h3>2024/4/6 募集發票</h3>
+                                <p class="t-c-text">
+                                    在進行此次小組募款活動後，我才知道康福這個機構的運作，也更了解康福是在幫助一些成年的智能障礙者，他們其實並不比年幼的障礙者輕鬆，也有許多困難在等待著他們，而我們能為他們做的是為他們募款大家平時不要的發票，減輕他們的經濟負擔。<br>
+                                    除了能幫助他們增加資金外，也能透過主動與他人開口來建立自己的勇氣、提升自己對社會的參與度，這是我在此次活動中收穫到的特別經驗，也感謝管理學老師讓我們有機會參與此次活動。<br>
+                                </p>
+                            </div>
+                            <div class="text text3">
+                                <h3>2023/7/1~2023/8/31 火鍋店打工</h3>
+                                <p class="t-c-text">
+                                    這段時間經過朋友推薦，在吃到飽火鍋店────涮樂打過工，主要是負責內場的食材料理與洗碗的部分。<br>
+                                    在這段時間做得最多的就是開早的部分：要將昨晚沒用盡的食物一一從冰箱內拿出來，經過挑選與整理後送到外場人員，讓他們放到自助區中，在全部送完後也要親自出去看是否有沒送到的食物，這些都完成後才能供客人享用。<br>
+                                    這段經歷對於我來說非常累卻充實，也是我第一次打工的經驗，有了打工經驗才徹底了解在外工作的艱辛，也更珍惜錢的花費。<br>
+                                </p>
+                            </div>
+                            <div class="text text4">
+                                <h3>2024/6/30~2024/9/5 寵物食品打工</h3>
+                                <p class="t-c-text">
+                                    在家人的介紹下，有幸在寵物食品包裝打過工，讓我學習到不少產品的專業知識與銷售技巧。<br>
+                                    這份工作不只讓我了解不同寵物食品的成分、營養價值，而我也是在這裡上班後才了解到原來在寵物食品上班並不會真正接觸到寵物，只有在開發新產品，要試吃時老闆才會詢問我們家中有沒有寵物，有的就會請他們代會去給寵物試吃，是我以前從未有過的經驗。<br>
+                                    這段打工經驗刷新了我對寵物食品的印象，也明白了關於包裝食品的所有流程，讓我明白寵物食品並沒有想像中的有趣和有很多動物，是個特別的經歷。<br>
+                                    
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="controls">
+                        <label for="slide4" class="prev slide1-control">&#10094;</label>
+                        <label for="slide2" class="next slide1-control">&#10095;</label>
+                    
+                        <label for="slide1" class="prev slide2-control">&#10094;</label>
+                        <label for="slide3" class="next slide2-control">&#10095;</label>
+
+                        <label for="slide2" class="prev slide3-control">&#10094;</label>
+                        <label for="slide4" class="next slide3-control">&#10095;</label>
+
+                        <label for="slide3" class="prev slide4-control">&#10094;</label>
+                        <label for="slide1" class="next slide4-control">&#10095;</label>
+                </div>  
+            </section> 
+        </article>
+    </main>
+
+    <footer>
+        <a href="#top">TOP</a>
+    </footer>
+</body>
+</html>
